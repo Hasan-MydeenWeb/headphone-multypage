@@ -1,0 +1,952 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');  
+  *{
+    margin: 0;
+    padding: 0;
+}
+/* navebar section */
+.gridelayout{
+    margin: auto;
+    width: 95%;
+}
+/* navebar section */
+.gridelayout{
+    margin: auto;
+    width: 95%;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.icon{
+    font-size: 30px;
+    align-items: center;
+    display: none;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul {
+list-style-type:none;
+display: flex;
+}
+nav ul li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.mainnavebar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.navehome a{
+    text-decoration: none;
+    color:white
+}
+.navehome  ul {
+list-style-type:none;
+display: flex;
+justify-content: space-around;
+}
+.navehome li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.navesecondlogo{
+    margin-top:46px;
+}
+.navefirstlogo{
+margin-top: 26px;
+}
+.herobaner{
+  
+background: url(../imagess/background\ img.png);
+height:120vh;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+}
+.heroheadphone{
+    position: absolute;
+    left: 100vh;
+    top: 140px;
+}
+.herotxt{
+   
+    position: absolute;
+    bottom: 15vh;
+    left: 10vh;
+    
+
+}
+.herotxt h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 60px;
+    color: #fff;
+    width: 60%;
+    padding-top: 40px;
+    text-align:start;
+}
+.herotxt h3{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px;
+    color: #fff;
+    margin-top: 69px;
+    text-align:start;
+}
+
+.herotxt button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    border-radius: 5px;
+    color: #40128B;
+    background-color: #D2E9E9;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    
+}
+.herobutton {
+    margin-top:64px;
+    
+
+}
+
+
+.moneyflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.formtxtmaindiv {
+    background-color: #007AFF;
+    padding: 46px;
+    padding-left: 6%;
+    width: 30%;
+}
+.phonemaindiv{
+    display: flex;
+}
+.contacth1{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.phonetxt h4{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+}
+.phonetxt{
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+
+.emailmaindiv{
+    display: flex;
+    
+}
+.emailh1{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.emailtxt h4{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+.emailtxt{
+    margin-bottom: 39px;
+    padding-left: 20px;
+}
+
+
+.officemaindiv{
+    display: flex;
+}
+.officeh1{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.officetxt{
+    margin-bottom: 40px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.officetxt h4{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    padding: 5px;
+    font-weight: 400;
+   
+}
+
+.formh2 h1 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.formmaindiv{
+    display: flex;
+gap: 80px;
+margin: auto;
+
+
+}
+.formfilltxt h1{
+    color: #007AFF;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.formfilltxt h5{
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    
+}
+                      /* form section  */
+.mainform{
+padding-right: 10px;
+}
+#name{
+    padding: 10px;
+    padding-right: 115px;
+    border-color: #007AFF;
+}
+.firstinput{
+    padding-right: 100px;
+    margin-top: 25px;
+    
+}
+
+#lastname{
+    padding: 10px;
+    padding-right: 115px;
+    margin-left: 60px;
+    border-color: #007AFF;
+}
+.secondinput{
+    margin-top: 25px;
+}
+#EMAILADDRES{
+    margin-top: 15px;
+    padding: 10px;
+    padding-right: 470px;
+    border-color: #007AFF;
+    
+}
+#PHONENUMBERe{
+    margin-top: 40px;
+    padding: 10px;
+    padding-right: 470px;
+    border-color: #007AFF;  
+}
+#CONTACTUS{
+    margin-top: 35px;
+    padding: 10px;
+    padding-right: 395px;
+    height: 30vh;
+    border-color: #007AFF;    
+}
+.formbutton button{
+    color: #fff;
+    background-color: #007AFF;
+    padding: 10px 30px;
+    width: 86%;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+.map img{
+    width: 100%;  
+    margin-top: 100px; 
+    height: 80vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer section */
+
+.backgroundimg{
+    background: url(/asserts/imagess/footer\ bg.png);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    
+}
+.stylep {
+padding-top: 46px;
+color: #fff;
+font-size: 20px;
+width: 65%;
+}
+.logo{
+    padding-left: 28px;  
+}
+.logoimg{
+padding-top: 60px;
+}
+.logoimg img{
+    padding-top: 10px;  
+}
+
+.Services ul li{
+list-style-type: none;
+color: #fff; 
+font-size: 16px; 
+line-height: 40px; 
+
+
+
+}
+.Services h1{
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.MyAccountt  ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+}
+.MyAccountt h1{
+    padding-bottom: 20px;
+    color: #fff;
+    width: 148%;
+}
+.ContactInfo ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+    width: 170%;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 170%;
+}
+
+
+.footerflex2{
+    display: flex;
+    
+}
+.Services{
+    margin-right: 300px;
+    margin-top: 49px;
+}
+.MyAccountt{
+    margin-right: 250px;
+    margin-top: 49px;
+}
+.ContactInfo{
+    margin-right: 100px;
+    margin-top: 49px;
+}
+.classhr{
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 100px;
+}
+.copyright .h41{
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.copyright .h42{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+
+
+/* responsive ipade */
+
+@media (min-width:750px)and (max-width:850px) {
+
+.navehome li{
+    margin-top: 55px; 
+} 
+.navesecondlogo {
+    margin-top: 50px;
+}
+.herotxt h1{
+width: 101%;
+}
+.herotxt h3 {
+ margin-top: 200px; 
+}
+.herobutton {
+    margin-top: 42px;
+}
+.herotxt h3 {
+    margin-top: 60px;
+}
+.herotxt {
+bottom: 50vh;
+left: 10vh;
+}
+.heroheadphone {
+    left: 41vh;
+    top: 261px;
+}
+.herobaner {
+    height: 81vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 149%;
+}
+
+
+/* section 2 */
+.moneyflex {
+justify-content: space-between;
+margin-top: 120px;
+margin-bottom: 120px;
+}
+.moneyflex img{
+    padding-left: 31px;
+}
+.formtxtmaindiv {
+    padding: 90px;
+    width: 100%;
+}
+.phonetxt h4 {
+font-size: 14px;
+}
+#lastname {
+padding-right: 460px;
+margin-left: 0px;
+}
+#name { 
+    padding-right: 460px;
+    margin-bottom: 10px;
+}
+
+
+.firstinput {
+    width: 80%;
+}
+#EMAILADDRES {
+padding-right: 460px;
+margin-top: 15px;
+margin-top: -10px;
+}
+#PHONENUMBERe {
+padding-right: 460px; 
+margin-top: 15px;
+}
+.formbutton button {
+width: 100%;
+margin-top: 10px;
+}
+#CONTACTUS {
+margin-top: 15px;
+}
+.formtxtsubdiv{
+width: 82%;
+}
+
+
+/* section map */
+.map img {
+width: 150%;
+height: 40vh;
+}
+
+
+/* section .footer  */
+
+.backgroundimg {
+height: 58vh;
+width: 150%;
+}
+.Services {
+margin-right: 160px;
+margin-top: 90px;
+}
+.ContactInfo {
+margin-right: 115px;
+margin-top: 90px;
+}
+.MyAccountt {
+    margin-right: 236px;
+    margin-top: 90px;
+}
+.ContactInfo h1 {
+    width: 161%;
+}
+.classhr {
+    top: 59px;
+}
+.copyright {
+    margin-top: 60px;
+}
+}
+
+
+
+
+
+
+
+
+/* responsive phone */
+@media screen and (max-width:600px){
+   /* headersection */
+
+   .icon{
+    display: flex;
+}
+nav ul{
+    display: none;
+}
+
+
+.showData {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    width: 88%;
+    background-color: #000;
+    position: absolute;
+    /* position: relative; */
+    top: 68px;
+    left: 2px;
+    height: 265px;
+    text-align: center;
+    padding: 0 0 0 45px;
+    gap: 24px;
+}
+
+.navefirstlogo {
+    margin-top: 0px;
+}
+.navefirstlogo img{
+    width: 50%;
+}
+nav ul li{
+    padding-left: 0;
+    margin-top: 0;
+}
+nav{
+    padding-left: 0;
+}
+
+.navehome li {
+ 
+    padding-left: 10px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+}
+.navefirstlogo img {
+    width: 62%;
+    margin-top: 18px;
+}
+.navesecondlogo {
+    margin-top: 10px;
+}
+.heroheadphone {
+    position: absolute;
+    left: 18vh;
+    top: 332px;
+}
+.heroheadphone img{
+    width: 100%;
+}
+.herotxt {
+    position: absolute;
+    bottom: 46vh;
+    left: 1vh;
+}
+.herotxt h1 {
+    font-size: 17px;
+    width: 74%;
+}
+.herobutton {
+    margin-top: 25px;
+}
+.herobaner {
+    background: url(../imagess/background\ img.png);
+    height: 83vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.herotxt button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    color: #40128B;
+    background-color: #D2E9E9;
+    text-align: center;
+    padding: 6px 12px 6px 12px;
+    width: 29%;
+}
+
+   .mainnavebar {
+    display: block;
+    padding-left: 40px;
+}
+.navefirstlogo {
+    margin-top: 0px;
+}
+.navefirstlogo img{
+    width: 50%;
+}
+.navehome ul {
+    list-style-type: none;
+    display: block;
+}
+.navehome li {
+ 
+    padding-left: 10px;
+    margin-top: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 900;
+}
+.navesecondlogo {
+    margin-top: 10px;
+}
+.heroheadphone {
+    position: absolute;
+    left: 18vh;
+    top: 370px;
+}
+
+.herotxt {
+    position: absolute;
+    bottom: 35vh;
+    left: 1vh;
+}
+.heroheadphone img{
+    width: 100%;
+}
+
+.herotxt h1 {
+    font-size: 17px;
+    width: 80%;
+}
+.herobutton {
+    margin-top: 25px;
+}
+.herobaner {
+    background: url(../imagess/background\ img.png);
+    height: 83vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.herotxt button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    color: #40128B;
+    background-color: #D2E9E9;
+    text-align: center;
+    padding: 6px 12px 6px 12px;
+    width: 29%;
+}
+.herotxt h3 {
+    margin-top: 20px;
+}
+
+                    /* moneformsection */
+
+
+
+
+
+.moneyflex{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+.moneyflex img{
+    width: 70%;
+    padding-bottom: 22px;
+    margin-left: 58px;
+}
+
+.formmaindiv {
+   display: block;
+}
+.formtxtmaindiv {
+    background-color: #007AFF;
+    padding: 35px;
+    padding-left: 10px;
+    width: 87%;
+}
+.contacth1 {
+    font-size: 15px;
+}
+.phonetxt h4 {
+    padding: 1px;
+    font-size: 13px;
+}
+.phoneimg img {
+    width: 70%;
+}
+.phonetxt {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.emailh1 {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+.emailimg img{
+    width: 100%;
+}
+.emailtxt h4 {
+    padding-bottom: 2px;
+    font-size: 14px;
+}
+.emailtxt {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.officeh1 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.officimg img{
+    width: 100%;
+}
+.officetxt h4 {
+    font-size: 14px;
+}
+.officetxt {
+    margin-bottom: 15px;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+.formh2 h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.formh2 img{
+    width: 70%;
+}
+.formfilltxt h1 {
+    font-size: 30px;
+    padding-bottom: 3px;
+}
+.formfilltxt h5 {
+    font-size: 20px;
+}
+.firstinput {
+    padding-right: 10px;
+    margin-top: 15px;
+}
+#name {
+    padding: 10px;
+    padding-right: 166px;
+    border-color: #007AFF;
+}
+#lastname {
+    padding: 10px;
+    padding-right: 166px;
+    margin-left: 0px;
+    border-color: #007AFF;
+    margin-top: 38px;
+}
+#EMAILADDRES {
+    padding-right: 166px;
+}
+#PHONENUMBERe {
+    padding-right: 166px;
+}
+#CONTACTUS {
+    margin-top: 35px;
+    padding: 10px;
+    padding-right: 104px;
+    height: 20vh;
+    border-color: #007AFF;
+}
+.formbutton button {
+    padding: 10px 10px;
+    width: 37%;
+    border: none;
+    border-radius: 3px;
+}
+.map img {
+    width: 100%;
+    margin-top: 50px;
+    height: 35vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footersection */
+.mainfooter {
+display: block;
+padding-top: 250px;
+}
+.footerflex2 {
+margin-left: 50px;
+display: block;
+}
+.Services {
+margin-right: 2px;
+margin-top: 2px;
+}
+.MyAccountt {
+margin-right: 2px;
+margin-top: 2px;
+}
+.ContactInfo {
+margin-right: 1px;
+margin-top: 4px;
+}
+.logo {
+padding-left: 50px;
+}
+.backgroundimg {
+background: url(/asserts/imagess/footer\ bg.png);
+background-size: cover;
+background-position: center center;
+height: auto;
+margin-top: 1px;
+}
+.classhr { 
+top: 31px;
+}
+.copyright {
+display: block;
+margin-top: 30px;
+}
+.copyright .h41 {
+margin-left: 50px;
+margin-top: 40px;
+}
+.copyright .h42 {
+margin-top: 20px;
+padding-left: 50px;
+padding-bottom: 10px;
+width: 100%;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+.ContactInfo ul li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+}
+.MyAccountt h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+.copyright .h42 {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    width: 83%;
+}
+
+
+}
+
+
+        

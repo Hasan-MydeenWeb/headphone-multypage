@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');  
+  *{
+    margin: 0;
+    padding: 0;
+}
+/* navebar section */
+
+
+/* navebar section */
+.gridelayout{
+    margin: auto;
+    width: 95%;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.icon{
+    font-size: 30px;
+    align-items: center;
+    display: none;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul {
+list-style-type:none;
+display: flex;
+}
+nav ul li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.gridelayout{
+    margin: auto;
+    width: 95%;
+}
+.mainnavebar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.navehome a{
+    text-decoration: none;
+    color:white
+}
+.navehome  ul {
+list-style-type:none;
+display: flex;
+justify-content: space-around;
+}
+.navehome li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.navesecondlogo{
+    margin-top:46px;
+}
+.navefirstlogo{
+margin-top: 26px;
+}
+.herobaner{
+  
+background: url(../imagess/background\ img.png);
+height:120vh;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+}
+.heroheadphone{
+    position: absolute;
+    left: 100vh;
+    top: 140px;
+}
+.herotxt{
+   
+    position: absolute;
+    bottom: 15vh;
+    left: 10vh;
+    
+
+}
+.herotxt h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 60px;
+    color: #fff;
+    width: 60%;
+    text-align:start;
+}
+.herotxt h3{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px;
+    color: #fff;
+    margin-top: 69px;
+    text-align:start;
+}
+.herotxt button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    padding: 10px;
+    border-radius: 5px;
+    color: #40128B;
+    background-color: #D2E9E9;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    
+}
+.herobutton {
+    margin-top: 64px;
+    
+
+}
+
+/* baner shop section */
+
+.banershop1 img{
+width: 100%;
+padding: 50px 0px;
+}
+.banershop2 img{
+    width: 100%;
+    padding: 100px 0px;
+    }
+
+
+
+
+
+
+
+
+
+/* card secon try */
+
+.cardmaindiv{
+    position: relative;
+}
+.cartimg{
+    position: absolute;
+    top: 9px;
+    left: 290px;
+}
+.carmainstar1{
+display: flex;
+justify-content: space-between;
+
+}
+.cardmaindiv{
+    border: 1px solid black;
+    width: 20.60rem;
+    margin-bottom: 80px;
+}
+.cardtxt1 h1{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.cardtxt1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;  
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+.cardstarlogo{
+    margin-left: 15px;
+    padding-bottom: 35px;
+}
+.cardimg1 img{
+    width: 100%;
+}
+
+
+.dolertxt{
+font-size:30px;
+font-family: 'Poppins', sans-serif;
+margin-right: 15px;
+}
+.maincarddiflex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+} 
+
+
+/* arrow section */
+
+
+.arrowimg img{
+margin-left: 35%;    
+}
+
+
+
+
+
+
+
+/* footer section */
+
+.backgroundimg{
+    background: url(/asserts/imagess/footer\ bg.png);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    
+}
+.stylep {
+padding-top: 46px;
+color: #fff;
+font-size: 20px;
+width: 65%;
+}
+.logo{
+    padding-left: 28px;  
+}
+.logoimg{
+padding-top: 60px;
+}
+.logoimg img{
+    padding-top: 10px;  
+}
+
+.Services ul li{
+list-style-type: none;
+color: #fff; 
+font-size: 16px; 
+line-height: 40px; 
+
+
+
+}
+.Services h1{
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.MyAccountt  ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+}
+.MyAccountt h1{
+    padding-bottom: 20px;
+    color: #fff;
+    width: 148%;
+}
+.ContactInfo ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+    width: 170%;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 170%;
+}
+
+
+.footerflex2{
+    display: flex;
+    
+}
+.Services{
+    margin-right: 300px;
+    margin-top: 49px;
+}
+.MyAccountt{
+    margin-right: 250px;
+    margin-top: 49px;
+}
+.ContactInfo{
+    margin-right: 100px;
+    margin-top: 49px;
+}
+.classhr{
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 100px;
+}
+.copyright .h41{
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.copyright .h42{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+ 
+
+
+
+
+
+
+
+/* responsive ipade */
+
+@media (min-width:750px)and (max-width:850px) {
+
+    .navehome li{
+        margin-top: 55px; 
+    } 
+    .navesecondlogo {
+        margin-top: 50px;
+    }
+    .herotxt h1{
+    width: 101%;
+    }
+    .herotxt h3 {
+     margin-top: 200px; 
+    }
+    .herobutton {
+        margin-top: 42px;
+    }
+    .herotxt h3 {
+        margin-top: 60px;
+    }
+    .herotxt {
+    bottom: 50vh;
+    left: 10vh;
+    }
+    .heroheadphone {
+        left: 41vh;
+        top: 261px;
+    }
+    .herobaner {
+        height: 81vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 149%;
+    }
+
+
+
+    /* section 2 */
+    .banershop1 img {
+        width: 150%;
+    }
+    .banershop2 img {
+        width: 150%;
+    }
+
+
+    /* section 2 */
+    .maincarddiflex {
+        width: 153%;
+    }
+    .arrowimg img {
+        margin-left: 47%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* section .footer  */
+    
+    .backgroundimg {
+    height: 58vh;
+    width: 150%;
+    }
+    .Services {
+    margin-right: 160px;
+    margin-top: 90px;
+    }
+    .ContactInfo {
+    margin-right: 115px;
+    margin-top: 90px;
+    }
+    .MyAccountt {
+        margin-right: 236px;
+        margin-top: 90px;
+    }
+    .ContactInfo h1 {
+        width: 161%;
+    }
+    .classhr {
+        top: 59px;
+    }
+    .copyright {
+        margin-top: 60px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive phone */
+@media screen and (max-width:600px){
+    .icon{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+  
+
+    .showData {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        width: 88%;
+        background-color: #000;
+        position: absolute;
+        /* position: relative; */
+        top: 68px;
+        left: 2px;
+        height: 265px;
+        text-align: center;
+        padding: 0 0 0 45px;
+        gap: 24px;
+    }
+  
+    .navefirstlogo {
+        margin-top: 0px;
+    }
+    .navefirstlogo img{
+        width: 50%;
+    }
+    nav ul li{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    nav{
+        padding-left: 0;
+    }
+   
+    .navehome li {
+     
+        padding-left: 10px;
+        margin-top: 5px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .navefirstlogo img {
+        width: 62%;
+        margin-top: 18px;
+    }
+    .navesecondlogo {
+        margin-top: 10px;
+    }
+    .heroheadphone {
+        position: absolute;
+        left: 18vh;
+        top: 370px;
+    }
+    
+    .herotxt {
+        position: absolute;
+        bottom: 35vh;
+        left: 1vh;
+    }
+    .heroheadphone img{
+        width: 100%;
+    }
+   
+    .herotxt h1 {
+        font-size: 17px;
+        width: 74%;
+    }
+    .herobutton {
+        margin-top: 25px;
+    }
+    .herobaner {
+        background: url(../imagess/background\ img.png);
+        height: 83vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .herotxt button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        color: #40128B;
+        background-color: #D2E9E9;
+        text-align: center;
+        padding: 6px 12px 6px 12px;
+        width: 29%;
+    }
+
+
+    /* banersection */
+
+
+    .banershop1 img {
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .banershop2 img {
+        width: 100%;
+        padding: 30px 0px;
+    } 
+
+
+    /* shopcard */
+
+    .maincarddiflex {
+        margin-bottom: 20px;
+        display: block;
+    }  
+    .cardmaindiv {
+        margin-bottom: 50px;
+        width: 21.6rem;
+    }
+    .cardimg1 img{
+        width: 100%;
+    }
+    .cartimg {
+        left: 277px;
+    }
+     
+
+
+
+    /* arrowsection */
+    .arrowimg img {
+        margin-left: 45px;
+        width: 74%;
+    }
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footersection */
+.mainfooter {
+    display: block;
+    padding-top: 250px;
+}
+.footerflex2 {
+    margin-left: 50px;
+    display: block;
+}
+.Services {
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.MyAccountt {
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.ContactInfo {
+    margin-right: 1px;
+    margin-top: 4px;
+}
+.logo {
+    padding-left: 50px;
+}
+.backgroundimg {
+    background: url(/asserts/imagess/footer\ bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    margin-top: 1px;
+}
+.classhr { 
+top: 31px;
+}
+.copyright {
+    display: block;
+    margin-top: 30px;
+}
+.copyright .h41 {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.copyright .h42 {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+.ContactInfo ul li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+}
+.MyAccountt h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

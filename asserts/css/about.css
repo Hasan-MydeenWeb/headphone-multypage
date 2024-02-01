@@ -1,0 +1,827 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');  
+  *{
+    margin: 0;
+    padding: 0;
+}
+/* navebar section */
+.gridelayout{
+    margin: auto;
+    width: 95%;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.icon{
+    font-size: 30px;
+    align-items: center;
+    display: none;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul {
+list-style-type:none;
+display: flex;
+}
+nav ul li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.mainnavebar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.navehome a{
+    text-decoration: none;
+    color:white
+}
+.navehome  ul {
+list-style-type:none;
+display: flex;
+justify-content: space-around;
+}
+.navehome li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.navesecondlogo{
+    margin-top:46px;
+}
+.navefirstlogo{
+margin-top: 26px;
+}
+.herobaner{
+  
+background: url(../imagess/background\ img.png);
+height:120vh;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+}
+.heroheadphone{
+    position: absolute;
+    left: 100vh;
+    top: 140px;
+}
+.herotxt{
+   
+    position: absolute;
+    bottom: 15vh;
+    left: 10vh;
+    
+
+}
+.herotxt h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 60px;
+    color: #fff;
+    width: 60%;
+    text-align:start;
+}
+.herotxt h3{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px;
+    color: #fff;
+    margin-top: 69px;
+    text-align:start;
+}
+.herotxt button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    padding: 10px;
+    border-radius: 5px;
+    color: #40128B;
+    background-color: #D2E9E9;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    
+}
+.herobutton {
+    margin-top: 64px;
+    
+
+}
+
+
+ /* contact first section */
+
+.contactcoler{
+    background-color: #007AFF;
+    margin-top: 100px;
+    width: 89%;
+    padding: 80px;
+    border-radius: 30px;
+}
+.contactmaindivblue{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/* contact second section */
+
+.maincontactgirldiv{
+    display: flex;  
+}
+.listimg{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 30%;
+       
+}
+.listimg img{
+    padding: 20px;
+}
+.listimg .customer{
+    padding-left: 32px;
+}
+.girlimg{
+    margin-top: 100px;
+}
+.girlimgtxt{
+    margin-top: 100px;
+    margin-left: 60px; 
+     
+}
+.girlimgtxt h1{
+    font-size: 50px; 
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 35px;
+    width: 80%;
+
+}
+.girlimgtxt p{
+    font-size: 25px; 
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 20px;
+    width: 85%;
+}
+
+
+
+
+/* about testmonial section */
+
+.abouth1{
+ margin-top: 100px;   
+text-align: center;
+}
+.abouth1 h1{
+font-size: 60px;
+color: #007AFF;
+font-family: 'Inter', sans-serif;
+
+}
+.abouth1 p{
+font-size: 25px;
+font-family: 'Poppins', sans-serif; 
+margin-top: 20px;
+}
+
+
+
+.testtxt p{
+font-size: 20px;
+font-family: 'Poppins', sans-serif; 
+width: 66%;
+text-align: center;
+margin-bottom: 10px;
+
+}
+.testtxt1 p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    width: 66%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+    }
+.testmonialsubdiv1{
+    margin-top: 60px;
+}
+.imgtestmone{
+    align-items: center;
+    display: flex;
+    margin-left: 80px;
+}
+.rosetxt h1{
+font-size: 20px;
+color: #007AFF;
+
+}
+.rosetxt{
+    margin-left: 30px;
+}
+.testmonialmainflex{
+display: flex;
+margin-left: 212px;
+margin-bottom: 10%;
+}
+.testtxt img{
+    padding-left: 383px;
+}
+
+
+
+
+
+
+
+/* footer section */
+
+.backgroundimg{
+    background: url(/asserts/imagess/footer\ bg.png);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    
+}
+.stylep {
+padding-top: 46px;
+color: #fff;
+font-size: 20px;
+width: 65%;
+}
+.logo{
+    padding-left: 28px;  
+}
+.logoimg{
+padding-top: 60px;
+}
+.logoimg img{
+    padding-top: 10px;  
+}
+
+.Services ul li{
+list-style-type: none;
+color: #fff; 
+font-size: 16px; 
+line-height: 40px; 
+
+
+
+}
+.Services h1{
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.MyAccountt  ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+}
+.MyAccountt h1{
+    padding-bottom: 20px;
+    color: #fff;
+    width: 148%;
+}
+.ContactInfo ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+    width: 170%;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 166%;
+}
+
+
+.footerflex2{
+    display: flex;
+    
+}
+.Services{
+    margin-right: 300px;
+    margin-top: 49px;
+}
+.MyAccountt{
+    margin-right: 250px;
+    margin-top: 49px;
+}
+.ContactInfo{
+    margin-right: 100px;
+    margin-top: 49px;
+}
+.classhr{
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 100px;
+}
+.copyright .h41{
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.copyright .h42{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+        
+
+
+
+
+
+
+
+
+
+
+/* responsive ipade */
+
+@media (min-width:750px)and (max-width:850px) {
+
+    .navehome li{
+        margin-top: 55px; 
+    } 
+    .navesecondlogo {
+        margin-top: 50px;
+    }
+    .herotxt h1{
+    width: 101%;
+    }
+    .herotxt h3 {
+     margin-top: 200px; 
+    }
+    .herobutton {
+        margin-top: 42px;
+    }
+    .herotxt h3 {
+        margin-top: 60px;
+    }
+    .herotxt {
+    bottom: 50vh;
+    left: 10vh;
+    }
+    .heroheadphone {
+        left: 41vh;
+        top: 261px;
+    }
+    .herobaner {
+        height: 81vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 149%;
+    }
+
+
+/* section 2 */
+
+    .contactcoler {
+    width: 132%;
+       
+    }
+
+    /* section 3 */
+
+    .girlimgtxt h1 {
+    width: 182%;
+    margin-bottom: 15px;
+
+    }
+    .girlimgtxt p {
+        font-size: 21px;
+        margin-bottom: 10px;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 44px;
+        width: 180%;
+    }
+    .listimg {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 80%;
+    }
+
+
+    /* section 3 */
+
+    .abouth1 {
+    width: 150%;
+    }
+    .testtxt1 p {
+        width: 109%;
+   
+    }
+    .testmonialmainflex {
+        margin-left: 226px;
+        gap: 112px;
+    }
+    .testmonialsubdiv1 {
+        margin-right: 123px;
+    }
+    .testtxt p {
+        width: 100%;
+    }
+    .testtxt1 p {
+        width: 174%;
+    }
+    .rosetxt {
+      
+        width: 118%;
+    }
+    .testmonialmainflex {
+        margin-left: 136px;
+        gap: 157px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* section .footer  */
+    
+    .backgroundimg {
+    height: 58vh;
+    width: 150%;
+    }
+    .Services {
+    margin-right: 160px;
+    margin-top: 90px;
+    }
+    .ContactInfo {
+    margin-right: 115px;
+    margin-top: 90px;
+    }
+    .MyAccountt {
+        margin-right: 236px;
+        margin-top: 90px;
+    }
+    .ContactInfo h1 {
+        width: 161%;
+    }
+    .classhr {
+        top: 59px;
+    }
+    .copyright {
+        margin-top: 60px;
+    }
+    
+}
+
+
+
+
+
+/* responsive phone */
+@media screen and (max-width:600px){
+    /* headersection */
+ 
+    .icon{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+  
+
+    .showData {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        width: 88%;
+        background-color: #000;
+        position: absolute;
+        /* position: relative; */
+        top: 68px;
+        left: 2px;
+        height: 265px;
+        text-align: center;
+        padding: 0 0 0 45px;
+        gap: 24px;
+    }
+  
+    .navefirstlogo {
+        margin-top: 0px;
+    }
+    .navefirstlogo img{
+        width: 50%;
+    }
+    nav ul li{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    nav{
+        padding-left: 0;
+    }
+   
+    .navehome li {
+     
+        padding-left: 10px;
+        margin-top: 5px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .navefirstlogo img {
+        width: 62%;
+        margin-top: 18px;
+    }
+    .navesecondlogo {
+        margin-top: 10px;
+    }
+    .heroheadphone {
+        position: absolute;
+        left: 18vh;
+        top: 370px;
+    }
+    
+    .herotxt {
+        position: absolute;
+        bottom: 35vh;
+        left: 1vh;
+    }
+    .heroheadphone img{
+        width: 100%;
+    }
+   
+    .herotxt h1 {
+        font-size: 17px;
+        width: 74%;
+    }
+    .herobutton {
+        margin-top: 25px;
+    }
+    .herobaner {
+        background: url(../imagess/background\ img.png);
+        height: 83vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .herotxt button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        color: #40128B;
+        background-color: #D2E9E9;
+        text-align: center;
+        padding: 6px 12px 6px 12px;
+        width: 29%;
+    }
+ 
+ 
+ 
+/* secondsection  */
+.contactcoler {
+    background-color: #007AFF;
+    margin-top: 50px;
+    padding: 32px;
+    border-radius: 30px;
+    width: 81%;
+}
+
+.contactmaindivblue {
+    display: block;
+}
+
+ .img-lft{
+    margin-left: 59px;
+
+ }
+ .marg-left{
+    margin-left: 83px;
+ }
+
+
+
+
+
+ .maincontactgirldiv {
+ display: block;
+}
+ .girlimg img{
+    width: 100%;
+ }
+ .girlimgtxt {
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.girlimgtxt h1 {
+    font-size: 27px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 35px;
+    width: 100%;
+}
+.girlimgtxt p {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    width: 99%;
+    text-align: start;
+}
+.listimg {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+
+.abouth1 {
+    margin-top: 50px;
+    text-align: center;
+}
+.abouth1 h1 {
+    font-size: 30px;
+    color: #007AFF;
+    font-family: 'Inter', sans-serif;
+}
+.abouth1 p {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.testmonialmainflex {
+   display: block;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.testmonialsubdiv1 {
+    margin-top: 35px;
+}
+.testtxt1 p {
+    font-size: 18px;
+    width: 93%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.imgtestmone {
+    align-items: center;
+  display: block;
+    margin-left: 92px;
+}
+.rosetxt {
+    margin-left: 0px;
+}
+
+.rosetxt p{
+    margin-left: 33px;
+    margin-top: 10px;
+}
+.testtxt img {
+    padding-left: 250px;
+}
+.testtxt p {
+    font-size: 18px;
+    width: 93%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /* footersection */
+ .mainfooter {
+ display: block;
+ padding-top: 250px;
+ }
+ .footerflex2 {
+ margin-left: 50px;
+ display: block;
+ }
+ .Services {
+ margin-right: 2px;
+ margin-top: 2px;
+ }
+ .MyAccountt {
+ margin-right: 2px;
+ margin-top: 2px;
+ }
+ .ContactInfo {
+ margin-right: 1px;
+ margin-top: 4px;
+ }
+ .logo {
+ padding-left: 50px;
+ }
+ .backgroundimg {
+ background: url(/asserts/imagess/footer\ bg.png);
+ background-size: cover;
+ background-position: center center;
+ height: auto;
+ margin-top: 1px;
+ }
+ .classhr { 
+ top: 31px;
+ }
+ .copyright {
+ display: block;
+ margin-top: 30px;
+ }
+ .copyright .h41 {
+ margin-left: 50px;
+ margin-top: 40px;
+ }
+ .copyright .h42 {
+ margin-top: 20px;
+ padding-left: 50px;
+ padding-bottom: 10px;
+ }
+ 
+ .MyAccountt h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+.ContactInfo ul li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+}
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

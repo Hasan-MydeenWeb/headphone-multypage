@@ -1,0 +1,1139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');  
+  *{
+    margin: 0;
+    padding: 0;
+}
+header,footer,main{
+    overflow: hidden;
+}
+/* navebar section */
+.gridelayout{
+    margin: auto;
+    width: 95%;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.icon{
+    font-size: 30px;
+    align-items: center;
+    display: none;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul {
+list-style-type:none;
+display: flex;
+}
+nav ul li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.navesecondlogo{
+    margin-top:46px;
+}
+.navefirstlogo{
+margin-top: 26px;
+}
+.herobaner{
+  
+background: url(../imagess/background\ img.png);
+height:120vh;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+}
+.heroheadphone{
+    position: absolute;
+    left: 100vh;
+    top: 140px;
+}
+.herotxt{
+   
+    position: absolute;
+    bottom: 15vh;
+    left: 10vh;
+    
+
+}
+.herotxt h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 60px;
+    color: #fff;
+    width: 60%;
+    text-align:start;
+}
+.herotxt button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    padding: 10px;
+    border-radius: 5px;
+    color: #40128B;
+    background-color: #D2E9E9;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    
+}
+.herobutton {
+    margin-top: 120px;
+    
+
+}
+
+
+
+
+/* loud music section */
+
+
+
+.loudmain{
+    display: flex;
+
+}
+.loudimg {
+    margin-top: 100px;
+
+}
+.loudtxt h1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    width: 40%;
+}
+.loudtxt p{
+width: 70%;
+font-size: 28px;
+margin-left: 100px;
+padding-top: 50px;
+font-style: normal;
+font-family: 'Poppins', sans-serif;
+line-height: 45px;
+word-spacing: 3px;
+}
+.loudtxt2 h1{
+    margin-top: 90px;
+    margin-left: 80px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    width: 40%;
+}
+.loudtxt2 p{
+    width: 70%;
+    font-size: 28px;
+    margin-left: 80px;
+    padding-top: 40px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    line-height: 45px;
+    word-spacing: 3px;
+}
+.loudimg2{
+margin-top: 90px;
+margin-right: 50px;
+}
+.featurelogo{
+    display: flex;
+
+}
+.redheadphone{
+display: flex;
+}
+
+.desktop{
+    display: block;
+
+}
+.mobile{
+    display:none;
+    
+}
+
+
+.redheadphone{
+margin-top: 100px;
+
+}
+/* readheadphone sectio */
+
+.redheadphonetxt{
+padding: 60px;
+}
+.redheadphoneimg{
+margin-left: 40px;
+}
+.redheadphonetxt h1{
+color: #007AFF;
+font-family: 'Poppins', sans-serif;
+font-size: 50px;
+font-weight: 800;
+padding-bottom: 40px;
+}
+.redheadphonetxt h4{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 300;
+padding-bottom: 30px;
+}
+.redheadphonetxt img{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 300;
+padding-bottom: 10px;
+}
+.cartimg{
+    position:relative;
+    bottom:62%;
+    left: 80%;
+}
+
+
+.headphonetxt{
+text-align: center;
+padding: 50px;
+}
+.headphonetxt h1{
+color: #007AFF;
+font-family: 'Poppins', sans-serif;
+font-size: 50px;
+font-weight: 800;
+padding-bottom: 20px;
+    
+}
+.headphonetxt h3{
+font-family: 'Poppins', sans-serif;
+font-size: 25px;
+font-weight: 600;
+padding-bottom: 20px;
+}
+.mainstar{
+    display: flex;
+}
+.icon {
+padding-top: 20px;
+padding-left: 20px;
+}
+.txtdoler{
+    padding-top: 10px;
+    padding-left: 170px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+
+.cardhphonetxt h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+}
+.cardhphonetxt h5{
+font-family: 'Poppins', sans-serif;
+font-weight: 500;
+font-size: 20px;
+margin-left: 20px;
+}
+.cardmainclass{
+    border: 1px solid black;
+    width: 25.15%;
+    height: 75vh;
+}
+.mainflexcard{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 50px;
+}
+.cardmainclass{
+    margin-bottom: 80px;
+}
+  
+
+/* about section */
+
+.aboutimg img{
+    height: 70vh;
+}
+ 
+.mainabout{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 130px;
+    
+}
+.abouttxt{
+    margin-left: 10px;
+}
+.abouttxt h1{
+font-family: 'Poppins', sans-serif;
+font-size:50px;  
+margin-bottom: 20px;
+color: #007AFF;
+margin-left: 150px;  
+}
+.abouttxt h5{
+font-family: 'Poppins', sans-serif;
+font-size:20px;  
+margin-bottom: 20px; 
+font-weight: 600; 
+margin-left: 150px;
+}
+.abouttxt p{
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 72%;
+    margin-left: 150px;
+    line-height: 40px;
+    
+    
+} 
+
+.map img{
+ width: 100%;  
+ margin-top: 100px; 
+ height: 80vh;
+}
+
+
+
+
+
+/* footer section */
+
+.backgroundimg{
+    background: url(/asserts/imagess/footer\ bg.png);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    
+}
+.stylep {
+padding-top: 46px;
+color: #fff;
+font-size: 20px;
+width: 65%;
+}
+.logo{
+    padding-left: 28px;  
+}
+.logoimg{
+padding-top: 60px;
+}
+.logoimg img{
+    padding-top: 10px;  
+}
+
+.Services ul li{
+list-style-type: none;
+color: #fff; 
+font-size: 16px; 
+line-height: 40px; 
+
+
+
+}
+.Services h1{
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.MyAccountt  ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+}
+.MyAccountt h1{
+    padding-bottom: 20px;
+    color: #fff;
+    width: 161%;
+}
+.ContactInfo ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+    width: 170%;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 170%;
+}
+
+
+.footerflex2{
+    display: flex;
+    
+}
+.Services{
+    margin-right: 300px;
+    margin-top: 49px;
+}
+.MyAccountt{
+    margin-right: 250px;
+    margin-top: 49px;
+}
+.ContactInfo{
+    margin-right: 100px;
+    margin-top: 49px;
+}
+.classhr{
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 100px;
+}
+.copyright .h41{
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.copyright .h42{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+
+
+
+/* card secon try */
+
+.cardmaindiv{
+    position: relative;
+}
+.cartimg{
+    position: absolute;
+    top: 9px;
+    left: 340px;
+}
+.carmainstar1{
+display: flex;
+justify-content: space-between;
+
+}
+.cardmaindiv{
+    border: 1px solid black;
+    width: 22.60rem;
+    margin-bottom: 80px;
+}
+.cardtxt1 h1{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.cardtxt1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;  
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+.cardstarlogo{
+    margin-left: 15px;
+    padding-bottom: 35px;
+}
+.dolertxt{
+font-size:30px;
+font-family: 'Poppins', sans-serif;
+margin-right: 15px;
+}
+.maincarddiflex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+} 
+.cardimg1 img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* shop section */
+
+.cardtxt2 h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.cardtxt2 p{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+.cardstarlogo1{
+    text-align: center;
+    margin-top: 7px;
+}
+.dolertxt1 h5{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+        
+
+
+
+
+
+
+
+
+/* responsive ipade */
+
+@media (min-width:750px)and (max-width:850px) {
+
+    .navehome li{
+        margin-top: 55px; 
+    } 
+    .navesecondlogo {
+        margin-top: 50px;
+    }
+    .herotxt h1{
+    width: 101%;
+    }
+    .herotxt h3 {
+     margin-top: 200px; 
+    }
+    .herobutton {
+        margin-top: 42px;
+    }
+    .herotxt h3 {
+        margin-top: 60px;
+    }
+    .herotxt {
+    bottom: 50vh;
+    left: 10vh;
+    }
+    .heroheadphone {
+        left: 41vh;
+        top: 261px;
+    }
+    .herobaner {
+        height: 81vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 149%;
+    }
+    .herotxt {
+        bottom: 56vh;
+        left: 5vh;
+    }
+
+    /* section 2 */
+    .loudtxt p {
+        width: 150%;
+        font-size: 30px;
+        line-height: 42px;
+        word-spacing: 1px;
+    }
+    .loudtxt h1 {
+        font-size: 43px;
+        width: 100%;
+        
+    }
+    .loudtxt2 h1{
+        font-size: 43px;
+        width: 100%;
+        margin-left: 70px;
+    }
+    .loudtxt2 p{
+        width: 139%;
+        font-size: 30px;
+        line-height: 42px;
+        word-spacing: 1px; 
+        margin-left: 70px;  
+    }
+    .loudimg2 img{
+        margin-left: 220px;
+
+    }
+
+
+
+    /* section 3 */
+    .redheadphoneimg {
+        width: 59%;
+    }
+
+     /* section 4 */
+    .maincarddiflex {
+        width: 153%;
+    }
+    .headphonetxt h1 {
+        margin-left: 30%;
+        width: 100%;
+    }
+    .headphonetxt h3{
+        margin-left: 50%;
+    }
+
+/* section 5 */
+
+    .abouttxt h1 {
+        width: 100%;
+        margin-left: 69px;
+    }
+    .abouttxt h5 {
+    width: 100%;
+    font-size: 31px;
+    margin-left: 69px;
+    
+    }
+.abouttxt p {
+    font-size: 33px;
+    width: 168%;
+    margin-left: 69px;
+    
+}
+
+/* section 6 */
+
+.map img {
+    width: 150%;
+    margin-top: 100px;
+    height: 50vh;
+}
+    
+    /* section .footer  */
+    
+    .backgroundimg {
+    height: 58vh;
+    width: 150%;
+    }
+    .Services {
+    margin-right: 160px;
+    margin-top: 90px;
+    }
+    .ContactInfo {
+    margin-right: 115px;
+    margin-top: 90px;
+    }
+    .MyAccountt {
+        margin-right: 236px;
+        margin-top: 90px;
+    }
+    .ContactInfo h1 {
+        width: 161%;
+    }
+    .classhr {
+        top: 59px;
+    }
+    .copyright {
+        margin-top: 60px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:600px){
+
+    .icon{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+  
+
+    .showData {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        width: 88%;
+        background-color: #000;
+        position: absolute;
+        /* position: relative; */
+        top: 68px;
+        left: 2px;
+        height: 265px;
+        text-align: center;
+        padding: 0 0 0 45px;
+        gap: 24px;
+    }
+  
+    .navefirstlogo {
+        margin-top: 0px;
+    }
+    .navefirstlogo img{
+        width: 50%;
+    }
+    nav ul li{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    nav{
+        padding-left: 0;
+    }
+   
+    .navehome li {
+     
+        padding-left: 10px;
+        margin-top: 5px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .navefirstlogo img {
+        width: 62%;
+        margin-top: 18px;
+    }
+    .navesecondlogo {
+        margin-top: 10px;
+    }
+    .heroheadphone {
+        position: absolute;
+        left: 18vh;
+        top: 370px;
+    }
+    
+    .herotxt {
+        position: absolute;
+        bottom: 35vh;
+        left: 1vh;
+    }
+    .heroheadphone img{
+        width: 100%;
+    }
+   
+    .herotxt h1 {
+        font-size: 17px;
+        width: 74%;
+    }
+    .herobutton {
+        margin-top: 25px;
+    }
+    .herobaner {
+        background: url(../imagess/background\ img.png);
+        height: 83vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .herotxt button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        color: #40128B;
+        background-color: #D2E9E9;
+        text-align: center;
+        padding: 6px 12px 6px 12px;
+        width: 29%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* loudmainsection */
+
+
+.loudmain {
+    display: block;
+}
+.loudimg {
+    margin-top: 50px;
+}
+.loudimg img{
+    width: 100%;
+}
+.loudtxt h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    width: 100%;
+}
+.loudtxt p {
+    width: 90%;
+    font-size: 17px;
+    margin-left: 20px;
+    padding-top: 20px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.loudtxt2 h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px; 
+    width: 84%;
+}
+.loudtxt2 p {
+    width: 87%;
+    font-size: 17px;
+    margin-left: 20px;
+    padding-top: 20px;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+.loudimg2 {
+    margin-top: 30px;
+}
+.loudimg2 img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* redheadhonesection */
+.redheadphone {
+    display: block;
+}
+.redheadphoneimg {
+    margin-left: 20px;
+}
+.redheadphoneimg img{
+    width: 100%;
+}
+.redheadphonetxt {
+    padding: 10px;
+}
+.redheadphonetxt h1 {
+    font-size: 27px;
+    padding-bottom: 15px;
+}
+.redheadphonetxt img {
+    padding-bottom: 19px;
+    width: 20%;
+}
+.img55 img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* headphonesection */
+
+.headphonetxt h1 {
+    font-size: 35px;
+    padding-bottom: 14px;
+}
+.headphonetxt h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.maincarddiflex {
+    display: block;
+    margin-bottom: 10px;
+}
+.cardmaindiv {
+    border: 1px solid black;
+    width: 22.6rem;
+    margin-bottom: 48px;
+    width: 100%;
+}
+.cardimg1 img{
+width: 100%;
+}
+.cartimg {
+    position: absolute;
+    top: 9px;
+    left: 390px;
+}
+
+
+
+/* aboutsection */
+.mainabout {
+    display: block;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+.aboutimg img{
+    width: 100%;
+}
+.abouttxt h1 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+.abouttxt h5 {
+    font-size: 21px;
+    margin-left: 10px;
+}
+.abouttxt p {
+    font-size: 15px;
+    width: 93%;
+    margin-left: 15px;
+    line-height: 26px;
+}
+
+  
+
+
+
+
+
+/* mapsection */
+.map img {
+    width: 100%;
+    margin-top: 20px;
+    height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+/* footersection */
+.mainfooter {
+    display: block;
+    padding-top: 250px;
+}
+.footerflex2 {
+    margin-left: 50px;
+    display: block;
+}
+.Services {
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.MyAccountt {
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.ContactInfo {
+    margin-right: 1px;
+    margin-top: 4px;
+}
+.logo {
+    padding-left: 50px;
+}
+.backgroundimg {
+    background: url(/asserts/imagess/footer\ bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    margin-top: 1px;
+}
+.classhr { 
+top: 31px;
+}
+.copyright {
+    display: block;
+    margin-top: 30px;
+}
+.copyright .h41 {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.copyright .h42 {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:500px) {
+    .desktop{
+        display: none;
+
+    }
+    .mobile{
+        display:block;
+        
+    }
+} 
+     */
+
+
+
+
+
+
+
+

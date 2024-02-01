@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@200;400;500;600;700;800&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@200;400;500;600;700;800;900&family=Poppins:wght@200;400;500;600;700;800&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+}
+/* navebar section */
+.gridelayout{
+    margin: auto;
+    width: 95%;
+}
+nav{ 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.icon{
+    font-size: 30px;
+    align-items: center;
+    display: none;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white
+}
+nav ul {
+list-style-type:none;
+display: flex;
+}
+nav ul li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.mainnavebar{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+
+}
+.navehome a{
+    text-decoration: none;
+    color:white
+}
+.navehome  ul {
+list-style-type:none;
+display: flex;
+justify-content: space-around;
+}
+.navehome li{
+    font-family: 'Inter', sans-serif;
+padding-left: 60px;
+margin-top: 57px;
+color: #fff;
+font-size: 20px;
+font-weight: 900
+
+}
+.navesecondlogo{
+    margin-top:46px;
+}
+.navefirstlogo{
+margin-top: 26px;
+}
+.herobaner{
+  
+background: url(../imagess/background\ img.png);
+height:120vh;
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+}
+.heroheadphone{
+    position: absolute;
+    left: 100vh;
+    top: 140px;
+}
+.herotxt{
+   
+    position: absolute;
+    bottom: 15vh;
+    left: 10vh;
+    
+
+}
+.herotxt h1{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 60px;
+    color: #fff;
+    width: 60%;
+    text-align:start;
+}
+.herotxt h3{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 25px;
+    color: #fff;
+    margin-top: 69px;
+    text-align:start;
+}
+.herotxt button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold; 
+    padding: 10px;
+    border-radius: 5px;
+    color: #40128B;
+    background-color: #D2E9E9;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    
+}
+.herobutton {
+    margin-top: 64px;
+    
+
+}
+
+          /* headphone section */
+
+.mainheadphoneimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+    padding: 10px;
+}
+.hedtxt h1{
+    font-size: 45px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+
+}
+.hedtxt p{
+font-size: 15px;
+width: 80%;
+font-family: 'Montserrat', sans-serif;
+line-height: 30px;
+font-weight:500;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.hedtxt{
+    margin-left: 30px;
+    width: 45%;
+}
+.humanimg {
+    height: 75vh;
+    width: 100%;
+
+}
+.hedphoneim{
+    height: 60vh;
+    margin-top: 40px;
+    margin-left: 120px;
+width: 55%;
+    
+}
+.subtxt p{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    font-weight:500;
+    width: 80%;    
+}
+.subtxt h1{
+    font-size: 45px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 600;
+} 
+
+
+.humanhedset{
+    margin-right: 40px;
+}
+.sublogo img{
+margin-top: 15px;
+}
+
+
+
+
+
+/* card secon try */
+
+.cardmaindiv{
+    position: relative;
+}
+.cartimg{
+    position: absolute;
+    top: 9px;
+    left: 290px;
+}
+.carmainstar1{
+display: flex;
+justify-content: space-between;
+
+}
+.cardmaindiv{
+    border: 1px solid black;
+    width: 22.60rem;
+    margin-bottom: 80px;
+}
+.cardtxt1 h1{
+    text-align: center;
+    margin-top: 35px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.cardtxt1 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;  
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+.cardstarlogo{
+    margin-left: 15px;
+    padding-bottom: 35px;
+}
+.dolertxt{
+font-size:30px;
+font-family: 'Poppins', sans-serif;
+margin-right: 15px;
+}
+.maincarddiflex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+} 
+
+.heading h1{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 800;
+    color: #007AFF;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 100px;
+}
+/* .heading h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+} */
+
+
+/* shop section */
+
+.cardtxt2 h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.cardtxt2 p{
+    text-align: center;
+    margin-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+.cardstarlogo1{
+    text-align: center;
+    margin-top: 7px;
+}
+.dolertxt1 h5{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+
+
+
+
+/* deliverysection */
+
+.customerh1 h1{
+text-align: center;
+margin-top: 100px;
+font-size: 40px;
+font-weight: 800;
+color: #007AFF;
+font-family: 'Poppins', sans-serif; 
+}
+.background{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: #D2E9E9;
+    padding: 70px;
+    border-radius: 10px;
+}
+.car p{
+font-family: 'Montserrat', sans-serif;
+margin-top: 50px;
+text-align: center;
+width: 70%;
+margin-right: 30px;
+}
+.car img{
+    margin-left: 20px;
+}
+.money p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    width: 70%;
+}
+.money img{
+    margin-left: 30px;
+}
+.money{
+    margin-left: 50px;
+}
+.star p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    width: 70%;
+}
+.star img{
+margin-left: 50px;
+}
+.star{
+    margin-left: 50px;
+}
+.service p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    width: 70%;
+}
+.service {
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+/* footer section */
+
+.backgroundimg{
+    background: url(/asserts/imagess/footer\ bg.png);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    
+}
+.stylep {
+padding-top: 46px;
+color: #fff;
+font-size: 20px;
+width: 65%;
+}
+.logo{
+    padding-left: 28px;  
+}
+.logoimg{
+padding-top: 60px;
+}
+.logoimg img{
+    padding-top: 10px;  
+}
+
+.Services ul li{
+list-style-type: none;
+color: #fff; 
+font-size: 16px; 
+line-height: 40px; 
+
+
+
+}
+.Services h1{
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.MyAccountt  ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+}
+.MyAccountt h1{
+    padding-bottom: 20px;
+    color: #fff;
+    width: 148%;
+}
+.ContactInfo ul li{
+    list-style-type: none;
+    color: #fff; 
+    font-size: 16px; 
+    line-height: 40px; 
+    width: 170%;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 170%;
+}
+
+
+.footerflex2{
+    display: flex;
+    
+}
+.Services{
+    margin-right: 300px;
+    margin-top: 49px;
+}
+.MyAccountt{
+    margin-right: 250px;
+    margin-top: 49px;
+}
+.ContactInfo{
+    margin-right: 100px;
+    margin-top: 49px;
+}
+.classhr{
+    color: #fff;
+    position: relative;
+    top: 100px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 100px;
+}
+.copyright .h41{
+    margin-left: 90px;
+    margin-top: 20px;
+    
+}
+.copyright .h42{
+    margin-right: 90px;
+    margin-top: 20px;
+}
+    
+
+
+/* responsive ipade */
+
+@media (min-width:750px)and (max-width:850px) {
+
+    .navehome li{
+        margin-top: 55px; 
+    } 
+    .navesecondlogo {
+        margin-top: 50px;
+    }
+    .herotxt h1{
+    width: 101%;
+    }
+    .herotxt h3 {
+     margin-top: 200px; 
+    }
+    .herobutton {
+        margin-top: 42px;
+    }
+    .herotxt h3 {
+        margin-top: 60px;
+    }
+    .herotxt {
+    bottom: 50vh;
+    left: 10vh;
+    }
+    .heroheadphone {
+        left: 41vh;
+        top: 261px;
+    }
+    .herobaner {
+        height: 81vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 149%;
+    }
+    .herotxt {
+        bottom: 56vh;
+        left: 5vh;
+    }
+
+  /* section 2 */
+
+  .mainheadphoneimg {
+    width: 150%;
+  
+    }
+    .hedtxt {
+        width: 60%;
+    }
+    .hedtxt h1 {
+        font-size: 36px;
+    }
+    .hedtxt p {
+        font-size: 22px;
+        width: 89%;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 30px;
+        font-weight: 100;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .hedphoneim {
+        height: 63vh;
+        margin-top: 40px;
+        margin-left: 3px;
+        width: 90%;
+    }
+    .humanhedset {
+        margin-right: 40px;
+    }
+    .humanimg {
+        height: 69vh;
+    }
+    .subtxt h1 {
+        font-size: 37px;
+    }
+    .subtxt p {
+        font-size: 22px;
+        line-height: 36px;
+        width: 80%;
+    }
+
+
+
+/* section 3 */
+
+    .heading h1 {
+    width: 100%;
+    margin-bottom: 100px;
+    margin-left: 266px;
+    }
+    .maincarddiflex {
+        width: 152%;
+    }
+    .customerh1 h1 {
+        width: 100%;
+        margin-left: 266px;
+    }
+    .background {
+        padding: 80px;
+        width: 132%;
+    }
+
+
+/* section 4 */
+
+    .car p {
+        width: 103%;
+        margin-right: 31px;
+    }
+    .money p {
+        width: 113%;
+    }
+    .star p {
+        width: 104%;
+    }
+    .service p {
+        width: 103%;
+    }
+       
+
+
+    
+    /* section .footer  */
+    
+    .backgroundimg {
+    height: 58vh;
+    width: 150%;
+    }
+    .Services {
+    margin-right: 160px;
+    margin-top: 90px;
+    }
+    .ContactInfo {
+    margin-right: 115px;
+    margin-top: 90px;
+    }
+    .MyAccountt {
+        margin-right: 236px;
+        margin-top: 90px;
+    }
+    .ContactInfo h1 {
+        width: 161%;
+    }
+    .classhr {
+        top: 59px;
+    }
+    .copyright {
+        margin-top: 60px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+
+    .icon{
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+  
+
+    .showData {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        width: 88%;
+        background-color: #000;
+        position: absolute;
+        /* position: relative; */
+        top: 68px;
+        left: 2px;
+        height: 265px;
+        text-align: center;
+        padding: 0 0 0 45px;
+        gap: 24px;
+    }
+  
+    .navefirstlogo {
+        margin-top: 0px;
+    }
+    .navefirstlogo img{
+        width: 50%;
+    }
+    nav ul li{
+        padding-left: 0;
+        margin-top: 0;
+    }
+    nav{
+        padding-left: 0;
+    }
+   
+    .navehome li {
+     
+        padding-left: 10px;
+        margin-top: 5px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .navefirstlogo img {
+        width: 62%;
+        margin-top: 18px;
+    }
+    .navesecondlogo {
+        margin-top: 10px;
+    }
+    .heroheadphone {
+        position: absolute;
+        left: 18vh;
+        top: 370px;
+    }
+    
+    .herotxt {
+        position: absolute;
+        bottom: 35vh;
+        left: 1vh;
+    }
+    .heroheadphone img{
+        width: 100%;
+    }
+   
+    .herotxt h1 {
+        font-size: 17px;
+        width: 74%;
+    }
+    .herobutton {
+        margin-top: 25px;
+    }
+    .herobaner {
+        background: url(../imagess/background\ img.png);
+        height: 83vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .herotxt button {
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        color: #40128B;
+        background-color: #D2E9E9;
+        text-align: center;
+        padding: 6px 12px 6px 12px;
+        width: 29%;
+    }
+
+
+
+                   /* humanimg */
+                   .mainheadphoneimg {
+                    /* display: flex; */
+                    margin-top: 20px;
+                    width: 94%;
+                    padding: 10px;
+                    display: block;
+                }
+                .hedtxt h1 {
+                    font-size: 32px;
+                    margin-top: 30px;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 500;
+                    width: 157%;
+                }
+    .hedphoneim {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 225%;
+    }
+    .hedtxt p {
+        font-size: 15px;
+        width: 225%;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 30px;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .humanimg {
+        width: 100%;
+        height: 36vh;
+    }
+    .subtxt h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .subtxt p {
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 20px;
+        font-weight: 500;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .subtxt h1 {
+        font-size: 30px;
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        width: 100%;
+    }
+    .hedtxt {
+        margin-left: 2px;
+        width: 45%;
+    }
+
+  
+
+
+    
+/* cardsection */
+
+.heading h1 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}   
+.maincarddiflex {
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.cardmaindiv1{
+    margin-bottom: 50px;
+}
+.cardimg1 img{
+    width: 100%;
+}
+.background {
+    margin-top: 100px;
+    display: block;
+    background-color: #D2E9E9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.car img {
+    margin-left: 85px;
+}
+.car p {
+    margin-top: 5px;
+    width: 105%;
+}
+.money {
+    margin-left: 32px;
+    margin-top: 30px;
+}
+.money p {
+    margin-top: 10px;
+    width: 81%;
+}
+.star {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.star p {
+    margin-top: 10px;
+    width: 92%;
+}
+.service {
+    margin-left: 37px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.service p {
+    margin-top: 10px;
+    width: 85%;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footersection */
+.mainfooter {
+    display: block;
+    padding-top: 250px;
+}
+.footerflex2 {
+    margin-left: 50px;
+    display: block;
+}
+.Services {
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.MyAccountt {
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.ContactInfo {
+    margin-right: 1px;
+    margin-top: 4px;
+}
+.logo {
+    padding-left: 50px;
+}
+.backgroundimg {
+    background: url(/asserts/imagess/footer\ bg.png);
+    background-size: cover;
+    background-position: center center;
+    height: auto;
+    margin-top: 1px;
+}
+.classhr { 
+top: 31px;
+}
+.copyright {
+    display: block;
+    margin-top: 30px;
+}
+.copyright .h41 {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.copyright .h42 {
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.ContactInfo h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+.ContactInfo ul li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    width: 100%;
+}
+.MyAccountt h1 {
+    padding-bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+
+
+
+}
